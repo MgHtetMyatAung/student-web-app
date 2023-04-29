@@ -1,0 +1,1 @@
+export const endpointApi = "https://contact-app.mmsdev.site/api/v1/";

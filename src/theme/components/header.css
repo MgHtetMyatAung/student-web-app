@@ -1,0 +1,19 @@
+.navbar{
+    @apply bg-blue-500 shadow-md;
+}
+
+.nav-menu{
+    @apply container mx-auto flex justify-between items-center h-[60px] lg:h-[70px] text-white;
+}
+
+.nav-menu .logo{
+    @apply font-semibold text-lg;
+}
+
+.menu{
+    @apply flex items-center gap-5 md:gap-10;
+}
+
+.nav-menu .nav-icon{
+    @apply text-[20px] lg:text-[25px];
+}
