@@ -1,1 +1,1 @@
-export const endpointApi = "https://contact-app.mmsdev.site/api/v1/";
+export const BASE_URL = "https://contact-app.mmsdev.site/api/v1/";
