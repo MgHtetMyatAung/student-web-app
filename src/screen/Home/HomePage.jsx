@@ -23,7 +23,7 @@ const HomePage = () => {
       {showModal && <ModalBox />}
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {data?.filter(item=>item.toString().toLowerCase().includes(keyword.toLowerCase())).map((item, id) => (
-          <StudentCard id={id + 1} key={id} />
+          <StudentCard id={item} key={id}/>
         ))}
       </div>
     </div>
